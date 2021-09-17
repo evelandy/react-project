@@ -51,3 +51,5 @@ function NewMeetingForm({addMeeting}) {
 }
 
 export default NewMeetingForm;
+
+// this is the form component that uses POST method on the endpoint that adds each field in the input from the form

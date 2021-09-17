@@ -35,3 +35,5 @@ function WeatherMap({date}) {
 }
 
 export default WeatherMap;
+
+// this pulls weather from OWM api and checks date to see if today is the meeting day if it is it sets state to the message for the weather match

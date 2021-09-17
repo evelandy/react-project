@@ -19,3 +19,5 @@ function DeleteMeeting({meeting}) {
 }
 
 export default DeleteMeeting;
+
+// this calls the delete method on the endpoint and deletes entry based on id

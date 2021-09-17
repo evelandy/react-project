@@ -15,3 +15,5 @@ function MeetingList({meetingInfo}) {
 }
 
 export default MeetingList;
+
+// this maps through the meetingInfo and creates a card based on the info pulled in

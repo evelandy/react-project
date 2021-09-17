@@ -60,3 +60,5 @@ function Login() {
 }
 
 export default Login;
+
+// this component logs admin in to see the cards. it calls a PUT method on the DB and if admin is false it sets to true and vice versa

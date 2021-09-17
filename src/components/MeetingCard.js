@@ -23,3 +23,5 @@ function MeetingCard({meet}) {
 }
 
 export default MeetingCard;
+
+// this is the card that shows the meeting etc

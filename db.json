@@ -1,71 +1,55 @@
 {
   "login": {
-    "admin": true
+    "admin": false
   },
   "meetings": [
     {
-      "id": 1,
-      "name": "Jon Doe",
-      "phone": "504-123-1234",
-      "email": "test@tester.com",
-      "date": "09/21/2021",
-      "description": "this is a test to confirm"
-    },
-    {
-      "id": 2,
-      "name": "Tom Cruise",
-      "phone": "223-556-1534",
-      "email": "hello@gmail.com",
-      "date": "09/22/2021",
-      "description": "this is a test to confirm"
-    },
-    {
       "name": "test",
-      "phone": "8323322323",
-      "email": "mail@test.com",
-      "date": null,
-      "description": "test\n",
-      "id": 3
-    },
-    {
-      "name": "test",
-      "phone": "2222222222",
-      "email": "mail@mail.call",
-      "date": "2021-09-15",
-      "description": "testing yu",
-      "id": 4
-    },
-    {
-      "name": "test",
-      "phone": "2322232322",
+      "phone": "8889898937",
       "email": "mail@mail.com",
-      "date": "2021-09-07",
-      "description": "testing again",
-      "id": 5
-    },
-    {
-      "name": "test",
-      "phone": "2222222222",
-      "email": "mail@mail.com",
-      "date": "2021-09-14",
-      "description": "testing",
-      "id": 6
-    },
-    {
-      "name": "tester",
-      "phone": "3334443333",
-      "email": "mail@me.com",
-      "date": "2021-09-14",
-      "description": "testinsflgsdmf",
-      "id": 8
-    },
-    {
-      "name": "today",
-      "phone": "3433333333",
-      "email": "msdf@sdfs.com",
       "date": "2021-09-17",
-      "description": "today test\n",
-      "id": 9
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phone": "8889898937",
+      "email": "mail@mail.com",
+      "date": "2021-09-18",
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phone": "8889898937",
+      "email": "mail@mail.com",
+      "date": "2021-09-17",
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phone": "8889898937",
+      "email": "mail@mail.com",
+      "date": "2021-09-18",
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phone": "8889898937",
+      "email": "mail@mail.com",
+      "date": "2021-09-17",
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phone": "8889898937",
+      "email": "mail@mail.com",
+      "date": "2021-09-18",
+      "description": "testing",
+      "id": 1
     }
   ]
 }

@@ -14,6 +14,7 @@ function WeatherMap({date}) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`)
     .then(res => res.json())
     .then((data) => {
+      console.log(data.weather[0].description)
       if(today === date){
         if(data.weather[0].description === 'clear sky'){
           setWeather('The skies are clear GREAT day for meetings!')
@@ -23,6 +24,18 @@ function WeatherMap({date}) {
           setWeather("It's thunderstorming prepare for delays!")
         } else if(data.weather[0].description === 'snow') {
           setWeather('Brr its cold! dress warm.')
+        } else if(data.weather[0].description === 'few clouds') {
+          setWeather('There are a few clouds peaking about.')
+        } else if(data.weather[0].description === 'scattered clouds') {
+          setWeather('There are scattered clouds small chance of rain.')
+        } else if(data.weather[0].description === 'broken clouds') {
+          setWeather('Broken clouds reported. Keep an eye on the sky.')
+        } else if(data.weather[0].description === 'shower rain') {
+          setWeather('Take an umbrella! Or you will get a free shower.')
+        } else if(data.weather[0].description === 'mist') {
+          setWeather('Drive save Mist is reported.')
+        } else if(data.weather[0].description === 'overcast clouds') {
+          setWeather('The sky is overcast take an umbrella just in case.')
         }
       }
     })

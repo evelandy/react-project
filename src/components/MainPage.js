@@ -29,4 +29,3 @@ function MainPage({meetingInfo, setMeetingInfo}) {
 
 export default MainPage;
 
-// this adds meetings and if the admin is logged in it will show list otherwise only shows form to add meetings

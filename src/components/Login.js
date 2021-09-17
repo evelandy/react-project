@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MainPage from './MainPage';
 import '../styles/login.css';
+import {useHistory } from 'react-router-dom';
 
 
 function Login() {
@@ -10,6 +11,9 @@ function Login() {
         username: '',
         password: ''
     });
+    const history = useHistory();
+    const handleLogin = () => history.push('/admin');
+    const handleLogout = () => history.push('/');
     useEffect(() => {
         fetch('http://localhost:3000/login')
         .then(res => res.json())
@@ -26,6 +30,7 @@ function Login() {
                 },
                 body: JSON.stringify({"admin": true})
             })
+            .then(handleLogin())
         }
     }
     const logOut = () => {
@@ -36,7 +41,7 @@ function Login() {
             },
             body: JSON.stringify({"admin": false})
         })
-        .then(window.location.reload(true))
+        .then(handleLogout())
     }
     const handleChange = (e) => {
         setLogin({...login, [e.target.name]: e.target.value})
@@ -62,3 +67,4 @@ function Login() {
 export default Login;
 
 // this component logs admin in to see the cards. it calls a PUT method on the DB and if admin is false it sets to true and vice versa
+//THIS component uses React Router to LogIn AND LogOut

@@ -25,3 +25,21 @@
     text-transform: uppercase;
     box-shadow: 0 0 20px gray;
 }
+
+.lp_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lp_container > h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.meeting_btn {
+    width: 30em;
+    height: 4em;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

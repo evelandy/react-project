@@ -1,6 +1,6 @@
 {
   "login": {
-    "admin": false
+    "admin": true
   },
   "meetings": [
     {
@@ -58,6 +58,14 @@
       "date": "2021-09-14",
       "description": "testinsflgsdmf",
       "id": 8
+    },
+    {
+      "name": "today",
+      "phone": "3433333333",
+      "email": "msdf@sdfs.com",
+      "date": "2021-09-17",
+      "description": "today test\n",
+      "id": 9
     }
   ]
 }

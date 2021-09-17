@@ -20,7 +20,7 @@
 .card {
     background-color: royalblue;
     width: 20em;
-    height: 35em;
+    height: 37em;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -46,4 +46,10 @@
     font-size: 18px;
     cursor: pointer;
     box-shadow: 0 0 5px gray;
+}
+.weather {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
 }

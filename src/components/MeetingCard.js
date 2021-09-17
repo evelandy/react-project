@@ -3,10 +3,7 @@ import DeleteMeeting from './DeleteMeeting';
 import '../styles/meetingcard.css';
 import WeatherMap from './WeatherMap';
 
-function MeetingCard({meet, updateMeet}) {
-    // const handlleClick = () => {
-    //     updateMeet(meet)
-    // }
+function MeetingCard({meet}) {
     return (
         <li className="card">
             <label htmlFor="name">NAME</label>
@@ -19,8 +16,7 @@ function MeetingCard({meet, updateMeet}) {
             <h4 name="date" id="date">{meet.date}</h4>
             <label htmlFor="description">DESCRIPTION</label>
             <h4 name="description" id="description">{meet.description}</h4>
-            {/* <button onClick={handlleClick}>confirm</button> */}
-            <WeatherMap />
+            <WeatherMap date={meet.date} />
             <DeleteMeeting meeting={meet} />
         </li>
     );
